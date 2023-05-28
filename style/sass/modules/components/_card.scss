@@ -1,0 +1,60 @@
+.card {
+  max-width: 320px;
+  color: aliceblue;
+  padding: 2rem;
+  display: flex;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card__body__section {
+  background-color: #00081d;
+}
+
+.bg-card {
+  background: linear-gradient(152.34deg, #730A2F -1.4%, #170F48 60.78%);
+}
+
+.card-text {
+  color: aliceblue;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 900;
+  color: aliceblue;
+}
+
+.card__text {
+  margin: 0;
+  font-weight: 700;
+  color: aliceblue;
+
+}
+
+.card-title-section{
+  font-weight: 900;
+  color: aliceblue;
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 712px;
+  }
+
+
+
+}
